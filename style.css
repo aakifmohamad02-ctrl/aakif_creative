@@ -1,0 +1,158 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #111;
+    color: white;
+    
+}
+
+header {
+    text-align: center;
+    padding-top: -15px;
+    background-color: black;
+    margin: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9))
+    , url(images/bg.jpg.png);border-bottom: 0.5px solid white;
+}
+
+header h1 {
+    display: block;
+    padding-bottom: 3px;
+}
+
+.heading {
+
+    background: #2d2d2efd;
+    width: 74.5%;
+    margin: auto;
+    border-radius: 7px;
+    padding-bottom: 1.5px;
+    display: block;
+
+
+}
+
+.heading h2 {
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.heading hr {
+    margin-top: 0;
+    width: 220px;
+    margin-left: 10px;
+
+}
+
+.heading p {
+    margin-left: 20px;
+}
+
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 17px;
+    padding: 25px;
+}
+
+   
+
+.video {
+    width: 320px;
+}
+
+.video iframe {
+    border-radius: 7px;
+}
+
+.button {
+    display: block;
+    width: 100px;
+    height: 5vh;
+    border-radius: 8px;
+    background-color: rgb(23, 66, 194);
+    box-shadow: none;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.btn a:hover{
+    color: rgba(94, 255, 1, 0.801);
+   
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+   margin: auto 10px;
+
+
+
+}
+
+footer{
+    background-color: #2d2d2efd;
+    width: 74.59%;
+    left: 180px;
+    border-radius: 9px;
+    margin: auto;
+}
+.email{
+    margin-bottom: 0px;
+    padding-left:15px ;
+    color: whitesmoke;
+}
+
+.wp{
+    color: whitesmoke;
+    padding-left: 15px;
+    margin-top: 0;
+    padding-bottom: 20px;
+    
+}
+footer h4 a{
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+footer h4 a:hover {
+    text-decoration: underline;
+    color: rgb(29, 182, 42);
+}
+
+/* .button:hover {
+    color: #2ed405;
+} */
+
+
+
+
+
+/* @media screen */
+
+
+@media (max-width:400px) {
+    .heading {
+      width: 1000px;
+    }
+    footer{
+        width: 1000px;
+    }
+}
