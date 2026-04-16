@@ -140,11 +140,11 @@ footer h4 a:hover {
 
 
 
-
-@media (max-width:600px) {
-  header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(images/bg.jpg.png);
-    
-}
-
+@media (max-width:500px) {
+    .heading {
+      width: 1000px;
+    }
+    footer{
+        width: 1000px;
+    }
 }
