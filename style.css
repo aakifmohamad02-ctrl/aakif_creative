@@ -140,6 +140,18 @@ footer h4 a:hover {
 
 
 
+
+
+/* @media screen */
+@media (max-width:800px){
+        header {
+
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.4))
+    , url(images/bgg.jpg.png);border-bottom: 0.5px solid white;
+}
+}
+
+
 @media (max-width:400px) {
     .heading {
       width: 1000px;
@@ -147,4 +159,10 @@ footer h4 a:hover {
     footer{
         width: 1000px;
     }
+    
+    header {
+
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.4))
+    , url(images/bgg.jpg.png);border-bottom: 0.5px solid white;
+}
 }
