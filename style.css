@@ -140,7 +140,7 @@ footer h4 a:hover {
 
 
 
-@media (max-width:500px) {
+@media (max-width:400px) {
     .heading {
       width: 1000px;
     }
